@@ -78,7 +78,7 @@ export default props => {
 
     useEffect(() => {
         if (navigateToHome) {
-            window.location.replace('http://localhost:3000')
+            window.location.replace('/')
         }
     }, [navigateToHome, navigate]);
 
