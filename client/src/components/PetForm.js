@@ -57,7 +57,7 @@ export default () => {
               skill2,
               skill3
             });
-            window.location.replace('http://localhost:3000');
+            window.location.replace('/');
           } catch (err) {
             console.log(err);
           }

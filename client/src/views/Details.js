@@ -22,7 +22,7 @@ export default () => {
 
     const handleDelete = () => {
         axios.delete("http://localhost:8000/api/pet/delete/" + id)
-        .then(() => window.location.replace('http://localhost:3000/'))
+        .then(() => window.location.replace('/'))
         .catch(err => console.log(err))
     }
 
